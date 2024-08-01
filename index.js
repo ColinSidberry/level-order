@@ -13,7 +13,7 @@ function levelOrder(root) {
     function traverse(node, level) {
         if (node === null) return;
 
-        if (result.length <= level) {
+        if (result.length === level) {
             result.push([]);
         }
 
